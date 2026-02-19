@@ -19,13 +19,42 @@ Console.WriteLine(likeCoding);*/
 //4. Print all variables using Console.WriteLine().
 
 Console.WriteLine("========Welcome to My Profile========");
-string name = "Zeebaby";
+/*string name = "Zeebaby";
 int age = 12;
 double number = 5;
 bool codingIsFun = true;
 
 
-Console.WriteLine($"My name is {name}, I am {age} years old, My favorite number is {number}, And i like Coding: {codingIsFun}.");
+Console.WriteLine($"My name is {name}, I am {age} years old, My favorite number is {number}, And i like Coding: {codingIsFun}.");*/
+
+//display variables
+string name = "Enny";
+Console.WriteLine("Hello: " + name);
+
+string firstName = "Muhammad";
+string lastName = "Aisha";
+string fullName = firstName + lastName;
+Console.WriteLine(fullName);
+
+//variable declaration
+int myNum;
+myNum = 21;
+Console.WriteLine(myNum);
+
+int num = 13;
+num = 25;
+Console.WriteLine(num);
+
+//Constants variable
+const int digit = 12;
+//digit = 20;
+Console.WriteLine(digit);
+
+//multiple variables
+int x = 5, y = 6, z = 50;
+Console.WriteLine(x + y + z);
 
 Console.WriteLine("==========Thanks for viewing my Page===========");
+
+
 
